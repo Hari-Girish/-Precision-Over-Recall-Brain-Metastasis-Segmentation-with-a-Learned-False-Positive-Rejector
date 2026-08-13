@@ -1,0 +1,12 @@
+# nnU-Net fold checkpoints (~238 MB each, 1.2 GB total) are NOT tracked here:
+# they exceed GitHub's 100 MB per-file limit. Stage them with ./stage_model.sh.
+model/Dataset501_BraTS_MET_2026_Training/
+*.pth
+*.npz
+*.nii.gz
+*.tar
+
+__pycache__/
+*.py[cod]
+.venv/
+.env

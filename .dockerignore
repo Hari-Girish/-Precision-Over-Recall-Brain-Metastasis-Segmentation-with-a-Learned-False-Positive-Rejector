@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!requirements.txt
+!model
+!model/**
+!src
+!src/**
+!trainers
+!trainers/**

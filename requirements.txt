@@ -1,0 +1,14 @@
+# Pinned to the exact versions the rejector (rejector_R37b_leakfree.joblib) was pickled
+# with and the model was trained with (pipelines/nnunet/.venv), to avoid silent
+# unpickling/inference drift. torch is installed separately in the Dockerfile from the
+# base image (already 2.12.0+cu130); everything else here comes from PyPI at build time.
+nnunetv2==2.7.0
+scikit-learn==1.7.2
+numpy==2.2.6
+scipy==1.15.3
+scikit-image==0.25.2
+batchgenerators==0.25.2
+batchgeneratorsv2==0.3.2
+nibabel==5.4.2
+joblib==1.5.3
+pandas==2.3.3

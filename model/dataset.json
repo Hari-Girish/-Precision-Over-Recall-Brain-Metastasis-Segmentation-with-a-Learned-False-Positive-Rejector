@@ -1,0 +1,22 @@
+{
+    "channel_names": {
+        "0": "T1c",
+        "1": "T1n",
+        "2": "T2f",
+        "3": "T2w"
+    },
+    "labels": {
+        "background": 0,
+        "NETC": 1,
+        "SNFH": 2,
+        "ET": 3,
+        "RC": 4
+    },
+    "numTraining": 1296,
+    "file_ending": ".nii.gz",
+    "name": "BraTS_MET_2026_Training",
+    "description": "BraTS-METS 2026 Lighthouse Challenge - Brain Metastasis Segmentation (Pre + Post Treatment)",
+    "reference": "https://www.synapse.org/brats-mets",
+    "licence": "CC BY-NC-SA 4.0",
+    "release": "2026"
+}
